@@ -25,5 +25,5 @@ Foi adicionada uma animação aos cartões da seção Projetos. Quando o visitan
 O recurso foi criado no arquivo `css/style.css`, usando `transition` na classe `.project-card` e `transform`, `box-shadow` e `border-color` na regra `.project-card:hover`. Também foi incluída uma regra para respeitar visitantes que preferem movimento reduzido.
 
 ## Publicação
-**Link do GitHub Pages:** https://guilhermet07.github.io/portfolio-pessoal/
+**Link do site publicado:** https://guilhermet07.github.io/portfolio-pessoal/
 
