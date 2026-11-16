@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfólio pessoal de desenvolvimento de sistemas.">
+  <title>Portfólio | Guilherme Acrani</title>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Ícones Bootstrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <!-- CSS próprio -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Menu de navegação -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#inicio">Guilherme<span class="brand-dot">.</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu"
+        aria-controls="menu" aria-expanded="false" aria-label="Abrir menu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#perfil">Perfil</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projetos">Projetos</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header id="inicio" class="hero-section">
+    <div class="container">
+      <div class="row align-items-center min-vh-100">
+        <div class="col-lg-8">
+          <p class="hero-tag">PORTFÓLIO PESSOAL</p>
+          <h1>Olá, eu sou <span>Guilherme Acrani.</span></h1>
+          <p class="hero-description">
+            Estudante de Desenvolvimento de Sistemas, interessado em tecnologia,
+            programação e criação de soluções digitais.
+          </p>
+          <a href="#projetos" class="btn btn-main">Conheça meus projetos</a>
+        </div>
+        <div class="col-lg-4 d-none d-lg-flex justify-content-center">
+          <div class="hero-symbol"><i class="bi bi-code-slash"></i></div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Perfil -->
+    <section id="perfil" class="section-padding">
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-kicker">QUEM SOU EU</p>
+          <h2>Perfil</h2>
+        </div>
+        <div class="row g-4 align-items-center">
+          <div class="col-lg-7">
+            <p class="profile-text">
+              Meu nome é Guilherme Tisiani Acrani e sou estudante da área de
+              Desenvolvimento de Sistemas. Estou aprendendo conceitos de programação,
+              desenvolvimento web e criação de sistemas. Gosto de conhecer novas
+              tecnologias e colocar em prática o que aprendo por meio de atividades
+              e projetos.
+            </p>
+          </div>
+          <div class="col-lg-5">
+            <div class="skills-panel">
+              <h3>Conhecimentos em desenvolvimento</h3>
+              <div class="skill-list">
+                <span>HTML</span><span>CSS</span><span>Bootstrap</span>
+                <span>Python</span><span>Lógica de programação</span>
+              </div>
+              <p class="small-note">Conhecimentos em desenvolvimento durante meus estudos.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projetos -->
+    <section id="projetos" class="section-padding projects-section">
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-kicker">O QUE ESTOU DESENVOLVENDO</p>
+          <h2>Projetos</h2>
+          <p class="section-intro">Algumas atividades e projetos que desenvolvi durante meus estudos.</p>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-4">
+            <article class="card project-card h-100">
+              <div class="project-icon"><i class="bi bi-rocket-takeoff"></i></div>
+              <div class="card-body">
+                <p class="project-type">PYTHON</p>
+                <h3 class="card-title">Simulador de Missão Espacial</h3>
+                <p class="card-text">Programa que calcula o tempo estimado de uma viagem espacial usando a distância e a velocidade informadas.</p>
+                <div class="project-tags"><span>Python</span><span>Cálculos</span></div>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <article class="card project-card h-100">
+              <div class="project-icon"><i class="bi bi-droplet-half"></i></div>
+              <div class="card-body">
+                <p class="project-type">PYTHON</p>
+                <h3 class="card-title">Monitoramento de Consumo de Água</h3>
+                <p class="card-text">Sistema simples que analisa o consumo de água e apresenta mensagens de acordo com o perfil e a quantidade informada.</p>
+                <div class="project-tags"><span>Python</span><span>Condicionais</span></div>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <article class="card project-card h-100">
+              <div class="project-icon"><i class="bi bi-bar-chart-line"></i></div>
+              <div class="card-body">
+                <p class="project-type">PYTHON</p>
+                <h3 class="card-title">Meu Painel de Dados</h3>
+                <p class="card-text">Projeto de organização de informações em listas, com uma apresentação visual simples para facilitar a leitura dos dados.</p>
+                <div class="project-tags"><span>Python</span><span>Listas</span></div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contato -->
+    <section id="contato" class="section-padding contact-section">
+      <div class="container text-center">
+        <div class="section-heading">
+          <p class="section-kicker">VAMOS CONVERSAR</p>
+          <h2>Contato</h2>
+        </div>
+        <p class="contact-text">Entre em contato comigo por e-mail.</p>
+        <a class="btn btn-main" href="mailto:gacrani21@gmail.com">
+          <i class="bi bi-envelope"></i> Enviar e-mail para gacrani21@gmail.com
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container text-center">
+      <p>© 2026 Guilherme Acrani. Portfólio pessoal.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
